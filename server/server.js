@@ -80,7 +80,7 @@ app.get('/auth/me', function(req,res){
 });
 app.get('/logout', function(req, res){
     req.logOut();
-    return res.redirect(308, 'http://localhost:3000/')
+    return res.redirect('http://localhost:3000/')
 });
 
 
